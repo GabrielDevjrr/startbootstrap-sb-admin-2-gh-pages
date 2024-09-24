@@ -1,0 +1,8 @@
+$azul-400: #3498db; // Definindo a cor personalizada
+
+@import "node_modules/bootstrap/scss/bootstrap"; // Importando o Bootstrap
+
+// Criando uma classe personalizada para o fundo
+.bg-azul-400 {
+  background-color: $azul-400 !important;
+}
